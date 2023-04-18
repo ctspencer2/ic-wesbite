@@ -12030,6 +12030,7 @@ h2, .h2, p {
 
 .navbar-nav {
   font-family: nimbus-sans, sans-serif;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
 }
