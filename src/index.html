@@ -13,21 +13,24 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg shadow p-3 bg-white">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img id="logo" class="img-fluid nav-item" src="../SVG/Asset 2.svg" alt=""></a>
-          <button class="navbar-toggler container-fluid" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="d-flex w-100 align-items-center justify-content-center">
+          <a class="navbar-brand" href="#"><img id="logo" class="img-fluid" src="../SVG/Asset 2.svg" alt=""></a>
+          <button class="navbar-toggler ml-auto p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-center" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Services</a>
+                <a class="nav-link text-center" aria-current="page" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link text-center" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">About</a>
               </li>
               <li class="nav-item">
                 <a id="contactbtn" class="nav-link btn btn-dark" href="#">Contact</a>
@@ -38,19 +41,22 @@
       </nav>
     </header>
     <main>
-      <section class="hero-section" style="background-image: url(/house.png); background-size: cover; background-position: center center; height: 640px;">
+      <section class="hero-section mt-0 shadow" style="background-image: url(/house.png); background-size: cover; background-position: center center; height: 640px;">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6 mx-auto text-center">
+          <div class="d-flex align-items-center">
+            <div class="col-lg-6 mx-auto text-center pt-5 mt-5">
               <h1 class="display-5 fw-bold">We are Independent Contractors</h1>
               <h2>Your Dream Home Built by Sandpoint's Finest Independent Contractors</h2>
               <p class="lead mb-4">Create your luxurious custom home for $1,000/sq ft with our skilled independent contractors. Expertise meets elegance - make your vision a reality today!</p>
-              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <div class="gap-2 d-sm-flex justify-content-sm-center">
                 <a href="/previous-projects" class="btn btn-dark btn-lg px-4 gap-3">See Previous Projects</a>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <section class="d-flex justify-content-center mt-5">
+        <h1>Services</h1>
       </section>
     </main>
     <footer>
